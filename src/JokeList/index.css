@@ -1,0 +1,16 @@
+.joke-list {
+    margin-top: 20px;
+  }
+  
+  .joke-list h2 {
+    margin-top: 0;
+  }
+  
+  .joke-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .joke-list li {
+    margin-bottom: 10px;
+  }
