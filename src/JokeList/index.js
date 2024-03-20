@@ -24,11 +24,16 @@ const JokeList = () => {
   return (
     <div className='joke-list'>
       <h2>Jokes</h2>
-      <ul>
-        {jokes.map((joke, index) => (
-          <li key={index}>{joke.joke}</li>
-        ))}
-      </ul>
+        <table>
+        <tbody>
+          {jokes.map((joke, index) => (
+            <tr key={index}>
+              <td>{index + 1}</td>
+              <td>{joke.joke}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
   );
 };
